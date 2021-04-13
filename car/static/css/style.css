@@ -2439,7 +2439,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   backface-visibility: hidden; }
 
 .background {
-  background: url(../img/effect/1.png) no-repeat 50% 100%;
   bottom: 96px;
   background-size: cover;
   position: absolute;
@@ -2459,17 +2458,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-size: 128px 224px;
   height: 224px;
   width: 128px;
-  background-image: url(../img/effect/2.png);
   background-repeat: no-repeat;
   bottom: 64px;
   position: absolute;
   right: 20%; }
-
-.wave.plain {
-  background-image: url(../img/effect/3.png); }
-
-.wave.paint {
-  background-image: url(../img/effect/4.png); }
 
 .light {
   margin: -120px -120px;
@@ -2480,12 +2472,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   bottom: 112px;
   position: absolute;
   left: 50%; }
-
-.light.orange {
-  background-image: url(../img/effect/5.png); }
-
-.light.purple {
-  background-image: url(../img/effect/6.png); }
 
 .light.a {
   bottom: 80px;
@@ -2615,21 +2601,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: absolute;
   top: -4px;
   left: 0; }
-
-.board.birds {
-  background-image: url(../img/effect/5.png); }
-
-.board.cloud-1 {
-  background-image: url(../img/effect/1.png); }
-
-.board.cloud-2 {
-  background-image: url(../img/effect/2.png); }
-
-.board.cloud-3 {
-  background-image: url(../img/effect/3.png); }
-
-.board.cloud-4 {
-  background-image: url(../img/effect/4.png); }
 
 .swing-1 {
   -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -5773,14 +5744,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Title Background Image */
 .title-bg-img {
-  background-image: url("../img/slider/1.jpg");
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   word-break: break-word; }
-
-.title-bg-img-2 {
-  background-image: url("../img/slider/2.jpg"); }
 
 /* Slide Arrow */
 .slick-slide-arrow-1 .slick-arrow {
@@ -11055,7 +11022,6 @@ input.cart-plus-minus-box {
   content: "";
   top: -30px;
   left: -5px;
-  background-image: url(../img/icons/car.png);
   z-index: 99;
   width: 125px;
   height: 50px;

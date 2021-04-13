@@ -1,0 +1,271 @@
+[
+{
+    "model": "automobile.car",
+    "pk": 3,
+    "fields": {
+        "title": "my car 1",
+        "model": "Camry",
+        "year": 2001,
+        "discounted_price": 544444,
+        "actual_price": 60000,
+        "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.\r\nReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+        "car_photo1": "photo/2021/04/07/overview-600x400.jpg",
+        "car_photo2": "photo/2021/04/07/rightPhoto-600x400.jpg",
+        "car_photo3": "photo/2021/04/07/backLeftPhoto-600x400.jpg",
+        "car_photo4": "photo/2021/04/07/backLeftPhoto-600x4001.jpg",
+        "milage": 5555,
+        "brand": "BMW",
+        "transmission": "Automatic",
+        "created_date": "2021-04-07T12:37:26Z"
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+        "title": "my first blog post",
+        "photo": "photo/2021/04/07/african-american-businessman-770x367_PoZ5EEP.jpg",
+        "content": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.\r\nReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.\r\nReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+        "created_date": "2021-04-07T12:15:15Z"
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+        "title": "second Blog",
+        "photo": "photo/2021/04/07/djnago.png",
+        "content": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.\r\nReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.\r\nReference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+        "created_date": "2021-04-07T12:15:37Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$ZaHYpwyinfOo$4Z2Gr+DzkzIMqw4wf9ExmQP88yqX26Xk8s2u5Vk9SRM=",
+        "last_login": "2021-04-12T11:51:34.990Z",
+        "is_superuser": true,
+        "username": "tech365",
+        "first_name": "",
+        "last_name": "",
+        "email": "tech365ng@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-03-31T13:19:36.389Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$UR9fQo36oTF3$24YAQxyCE7+OKmjqi9gkUfFVY/tqTs4BPYAz6z1WPwM=",
+        "last_login": "2021-04-12T12:16:38.972Z",
+        "is_superuser": false,
+        "username": "titobi",
+        "first_name": "tito",
+        "last_name": "tara",
+        "email": "tito@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-12T11:48:39.136Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nckmb6478b72xj6ai6kznsajcap7le43",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYO1u7ZxADlSnFSIu0OkFNC-mXkvlmBbW9pGWdKU2ZlJdvrdEOhR-g7yHfpt5jT3dZmQ7wo_6ODXOZfn5XD_DhqM9q2VU8VCdcKGiso6KUMkFwRpL8jEYAyhzl4HIQl0AASbPSgTbUVEqdn7A8K-N2g:1lU57H:GTzLq4zpvA9YUSufwStqOrF60qTCPc4r37no6addqYU",
+        "expire_date": "2021-04-21T10:08:55.742Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "oxfuwgdn62ll6tgf34li3y55m401kj98",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYO1u7ZxADlSnFSIu0OkFNC-mXkvlmBbW9pGWdKU2ZlJdvrdEOhR-g7yHfpt5jT3dZmQ7wo_6ODXOZfn5XD_DhqM9q2VU8VCdcKGiso6KUMkFwRpL8jEYAyhzl4HIQl0AASbPSgTbUVEqdn7A8K-N2g:1lUooS:M7ZLVasjIUWrgvXKfnUjDBKJ3MZpfnTRcrNfWIF8KPQ",
+        "expire_date": "2021-04-23T10:56:32.062Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ua0b3xbv1rq8f3j1iz23kstfikt9drbg",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYO1u7ZxADlSnFSIu0OkFNC-mXkvlmBbW9pGWdKU2ZlJdvrdEOhR-g7yHfpt5jT3dZmQ7wo_6ODXOZfn5XD_DhqM9q2VU8VCdcKGiso6KUMkFwRpL8jEYAyhzl4HIQl0AASbPSgTbUVEqdn7A8K-N2g:1lRb38:vpO1vNyEyP4NfKJXoDLv_SMOx5aM6UXx6NiHeAUj--g",
+        "expire_date": "2021-04-14T13:38:22.605Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y6q1i87t1lj31552p5sumfruzk9au87i",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYO1u7ZxADlSnFSIu0OkFNC-mXkvlmBbW9pGWdKU2ZlJdvrdEOhR-g7yHfpt5jT3dZmQ7wo_6ODXOZfn5XD_DhqM9q2VU8VCdcKGiso6KUMkFwRpL8jEYAyhzl4HIQl0AASbPSgTbUVEqdn7A8K-N2g:1lU66j:Djs1rulg1TLA8SZ15BaHsM33DobhuvtGrpw9f8jtNIs",
+        "expire_date": "2021-04-21T11:12:25.253Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y6qkerfwsfdvzkmjbvgyt8j22u86rmrn",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlleZ_0JJX3OYK0_wQFkS3FSIe5OLKWAYpp5b-bNHO1bdntLq1siuzLJLr-dp_BMpYP4oHKvPNSyrYvnXeEnbXyqMb1up_t3kKnlYz1KVInmpAbjkwSNZEYljBfQE-JgEDEqQYBwWBastrMhAVr7IZrAPl_HVzcK:1lVvUc:HA8SCuQ_gMzAWGRHdt9gLWrGGhfEq6EHOQBLI-nZVqA",
+        "expire_date": "2021-04-26T12:16:38.978Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "name": "wale",
+        "phone": "08011111111",
+        "email": "wale@gmail.com",
+        "subject": "hello world",
+        "message": "is it working"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-04-07T10:10:38.725Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "BMW 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-04-07T10:45:12.292Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "BMW 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo1\", \"Car photo2\", \"Car photo3\", \"Car photo4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-04-07T10:45:55.507Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "htllon car",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-04-07T11:15:19.910Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "blog",
+            "blog"
+        ],
+        "object_id": "1",
+        "object_repr": "my first blog post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-04-07T11:16:12.163Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "blog",
+            "blog"
+        ],
+        "object_id": "2",
+        "object_repr": "second Blog",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-04-07T11:37:23.739Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "htllon car",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-04-07T11:37:23.748Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "BMW 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-04-07T11:38:13.852Z",
+        "user": [
+            "tech365"
+        ],
+        "content_type": [
+            "automobile",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "my car 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

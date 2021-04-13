@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'scze6z(zwzh(jwhg_o=jells(-n-xxfyx+4$x!7kus1i!)x(1@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['young-journey-80493.herokuapp.com']
 
 
 # Application definition

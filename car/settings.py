@@ -82,18 +82,18 @@ WSGI_APPLICATION = 'car.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
+DATABASES = {
 
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'auto',
-#         'USER': 'postgres',
-#         'PASSWORD': 'sensepansy',
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'auto',
+        'USER': 'postgres',
+        'PASSWORD': 'sensepansy',
 #         'HOST': 'localhost',
-#     }
+    }
 
-# }
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:sensepansy@localhost/autosmart_db') }
+}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:sensepansy@localhost/autosmart_db') }
 
 
 # Password validation

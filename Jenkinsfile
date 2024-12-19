@@ -8,14 +8,19 @@ pipeline {
     }
 
     stage('LOG') {
-      steps {
-        sh 'ls -la'
-      }
-    }
+      parallel {
+        stage('LOG') {
+          steps {
+            sh 'ls -la'
+          }
+        }
 
-    stage('NPM') {
-      steps {
-        sh 'npm run master'
+        stage('Front-End Unit Tests') {
+          steps {
+            sh 'cd autosmart-front && npm i && npm run test: unit'
+          }
+        }
+
       }
     }
 

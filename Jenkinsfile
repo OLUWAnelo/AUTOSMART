@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('NPM') {
+      steps {
+        sh 'npm run master'
+      }
+    }
+
   }
 }

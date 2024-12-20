@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front-End Unit Tests') {
           steps {
-            sh ' autosmart-front && npm i && npm run test:unit'
+            sh ' cd autosmart-front && npm i && npm run test:unit'
           }
         }
 

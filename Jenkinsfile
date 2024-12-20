@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('Front-End Unit Tests/Shell Script') {
+          steps {
+            sh 'cd autosmart-project-front && npm i && npm run test:unit'
+          }
+        }
+
       }
     }
 

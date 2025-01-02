@@ -15,7 +15,7 @@ pipeline {
           }
         }
 
-        stage('Run Test') {
+        stage('Runtest') {
           steps {
             sh 'pytest'
           }
